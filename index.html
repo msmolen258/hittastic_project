@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Night out</title>
+        <link rel="stylesheet" type="text/css" href="css/styleindex.css">
+        <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Overpass|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <script>
+            function showPassword() {
+                var x = document.getElementById("myInput");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+            }
+        </script>
+        <div class="logo"></div>
+        <div class="header">
+            <p class="logintext"> Have an account already? Log in!</p>
+            <form class="login" method="post" action="login.php">
+                <input name="username" placeholder="USERNAME" id="username" type="text"/>
+                <input name="password" placeholder="PASSWORD" id="password" type="password"/>
+                <input type="submit" value="LOG IN" />
+            </form> 
+        </div>
+
+        <div class="main">
+            <div class="leftside"><img src="image1.jpg" alt="Nightlife"></div>
+            <div class="rightside"><h1>Welcome to NIGHT OUT Southampton!</h1><p> Southampton has a range of restauramts, cafes and pubs. This website is here to help you find the best places to spend the night out in Southampton! Check reviews and add yours! Or maybe you would like to add a new venue? Simply, register and add your venue.Don't have an account yet?<br> Register here: </p>
+        <form class="signup" action="signup.php" method="post">
+            <input type="text" placeholder="Your name" name="name"><br>
+            <input type="text" placeholder="Username" name="username"><br>
+            <input placeholder="Password" id="myInput" name="password" type="password"><br>
+            <input type="checkbox" onclick="showPassword()"><span id="show">Show Password</span>
+            <br><input type="submit" value="SIGN UP">
+        </form>
+        </div>
+
+
+    </div>       
+<div class="footer"></div>
+</body>
+
+</html>

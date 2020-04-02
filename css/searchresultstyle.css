@@ -1,0 +1,63 @@
+.title {
+
+    font-size: 18px;
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+}
+
+#row2 {
+
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+}
+
+#row1 {
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+}
+
+#row1a {
+    
+    font-weight: bold;
+    text-align: center;
+    color: crimson;
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+}
+
+
+.searchresults {
+    width: 300px;
+    height: 180px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid black;
+    float: left;
+}
+
+.a {
+    padding-top: 15px;
+}
+input[type=text] {
+    margin-top: 10px;
+    padding:5px 15px; 
+    
+}
+
+input[type=submit] {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding:5px 15px; 
+}
+
+.seereviews{
+     font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}

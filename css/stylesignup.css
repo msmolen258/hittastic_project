@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+.header .image {
+    background: url("nightout.png") 
+                no-repeat;
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    border-radius: 15px; 
+}
+
+
+form {
+  margin: auto;
+  text-align: center;
+  width: 500px;
+  height: auto;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color:darkslategrey;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+input[type=text] {
+    padding-top: 3px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+input[type=number] {
+    padding-top: 3px;
+    margin-top: 5px;
+    width: 100%; 
+    height: 30px;
+}
+
+
+input[type=submit]:hover {
+  background-color:firebrick;
+}
+
+input[type=text]:focus {
+  border: 2px solid crimson;
+}
+input[type=number]:focus {
+  border: 2px solid crimson;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-align: center;
+}
+
+input::placeholder {
+  font-size: 12px; 
+   padding-left: 10px;
+   letter-spacing: 1px;
+}
+
+.footer {
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: darkgrey;
+}

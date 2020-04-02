@@ -1,0 +1,78 @@
+.logo{
+    background: url("logo1.png") 
+        no-repeat;
+    width: 496px;;
+    height: 188px;
+    margin: auto;
+}
+
+.loggedas {
+    
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+}
+
+input[type=submit] {
+    margin-left: 10px;
+    padding:5px 15px; 
+    background-color: firebrick;
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+.pendingreviews {
+    margin-top:  30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: auto;  
+    background-color: #eaeaea ;
+}
+
+h1 {
+    padding-top: 10px;
+    font-family: 'Overpass', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    font-family: 'Overpass', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+    font-size: 17px;
+}
+
+th {
+    text-align: center;
+    background-color: crimson;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+#mainpage {
+    
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    padding-top: 15px;
+    font-size: 20px;
+}

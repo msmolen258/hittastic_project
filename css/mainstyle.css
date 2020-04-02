@@ -1,0 +1,83 @@
+.logo{
+    background: url("logo1.png") 
+        no-repeat;
+    width: 496px;;
+    height: 188px;
+    margin: auto;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.loggedas {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid black; 
+}
+
+#logout input[type=submit] {
+    margin-left: 10px;
+    padding:5px 15px; 
+    background-color: firebrick;
+    color: white;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}
+
+
+.addvenue {
+    border-radius: 5px;
+    padding: 20px;
+}
+
+label {
+    padding-top: 10px;
+    float: left;
+    width: 150px;
+    text-align: right;
+    padding-right: 12px;
+    font-family: 'Overpass', sans-serif;
+}
+
+#add input[type=text] {
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+#add input[type=submit] {
+    width: 150px;
+    height: 35px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 280px;
+    
+}
+
+#add input#decription{
+    height: 150px;
+}
+
+#add {
+    
+    margin-left: 28%;
+}
+
+
+p.add {
+
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
+
+
+
